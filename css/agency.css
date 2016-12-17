@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #eb212e;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #eb212e;
 }
 h1,
 h2,
@@ -45,6 +45,9 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+.fa-search-plus, .fa-users, .fa-heartbeat{
+  background-color:  #eb212e;
 }
 .img-centered {
   margin: 0 auto;
@@ -733,7 +736,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #eb212e;
 }
 img::selection {
   background: transparent;
